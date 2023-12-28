@@ -157,7 +157,7 @@ WITH movies_distinct_genre AS
 SELECT 
    count(m.id)
 FROM
-    movies_distinct_genre m
+    movies_distinct_genre m;
 
 
 /* There are more than three thousand movies which has only one genre associated with them.
